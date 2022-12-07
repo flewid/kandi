@@ -1,3 +1,11 @@
 /*
 This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
 */
+
+body {
+    background-image: url(/images/2137655.jpg); 
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
