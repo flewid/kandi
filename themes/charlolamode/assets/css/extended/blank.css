@@ -3,9 +3,9 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 */
 
 body {
-    background-image: url(/images/2137655.jpg); 
-    background-position: center center; 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+    background-image: url(/images/2137655.jpg) !important; 
+    background-position: center center !important;; 
+    background-size: cover !important;; 
+    background-repeat: no-repeat !important;; 
+    background-attachment: fixed !important;;
 }
