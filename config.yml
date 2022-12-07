@@ -3,7 +3,8 @@ title: Kandi Family
 paginate: 5
 theme: charlolamode
 copyright: Rave On
-
+defaulttheme: dark
+disablethemetoggle: true
 
 menu:
     main:
