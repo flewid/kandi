@@ -36,7 +36,7 @@ params:
 
     profileMode:
         enabled: true
-        title: Joe Doe
+        title: Join The Kandi Family
         imageUrl: "/images/profile.png"
         imageTitle: my image
         # imageWidth: 120
