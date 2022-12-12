@@ -7,6 +7,7 @@
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
+       
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
@@ -18,6 +19,13 @@
             {{- end }}
         </div>
         {{- end }}
+
+       <br />
+       <div class="buttons">
+        <a href="https://opensea.io/collection/kandifamily" class="iconz" target="_blank"><img src="/images/opensea.svg" alt="Kandi on OpenSea" height="80px" width="80px" class="padded" /></a>
+        <a href="https://www.scatter.art/collection/0xa89985A2579348aF478753f0D769bA0bBA4A4D00?tab=mint" class="iconz" target="_blank"><img src="/images/scatter.webp" alt="Kandi on Scatter" height="80px" width="80px" class="padded" /></a>
+        <a href="https://twitter.com/KandiFamily" target="_blank" class="iconz"><img src="/images/twitter.png" alt="Kandi on Twitter" height="80px" width="80px" class="padded" /></a>
+    </div>
     </div>
     {{- end}}
 </div>

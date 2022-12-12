@@ -37,14 +37,14 @@ params:
 
     profileMode:
         enabled: true
-        title: Join The Kandi Family
+        title: Own The Party With Kandi
         imageUrl: "/images/profile.png"
-        imageTitle: my image
+        imageTitle: Kandi Family
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Don't click me
-              url: https://opensea.io
+            - name: MINT NOW
+              url: https://www.scatter.art/collection/0xa89985A2579348aF478753f0D769bA0bBA4A4D00?tab=mint
     mainSections:
       - articles
 
